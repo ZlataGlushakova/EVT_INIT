@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+                
+    </style>
+</head>
+<body>
+    <h1>Опрос о предпочтениях в еде</h1>
+    
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Опрос о аллергиях</legend>
+            <p>Фамилия:<br></p>
+            <input type="text" name="lastname" placeholder="Иванов" required><br>
+            <p>Имя:<br></p>
+            <input type="text" name="firstname" placeholder="Иван" required><br>
+            <p>Телефон:<br></p>
+            <input type="tel" name="phone" placeholder="+375(29)1234567" required><br>
+            <p>Email<br></p>
+            <input type="email" name="email" placeholder="ffffffffffff@gmail.com" required><br>
+            <p>Пароль</p>
+            <input type="password" name="pwd" required><br>
+            <br><label for="myfile"></label>Выберите файл:</label>
+            <input type="file" id="myfile" name="myfile"><br>
+
+            <fieldset>
+                <legend>Отмете ваши аллергены:</legend>
+
+                <input type="checkbox" name="allergy"/><label>Молоко</label><br>
+                <input type="checkbox" name="allergy"/><label>Яйца</label><br>
+                <input type="checkbox" name="allergy"/><label>Рыба</label><br>
+                <input type="checkbox" name="allergy"/><label>Пшеница</label><br>
+                <input type="checkbox" name="allergy"/><label>Ракообразные</label><br>
+                <input type="checkbox" name="allergy"/><label>Древесные орехи</label><br>
+                <input type="checkbox" name="allergy"/><label>Арахис</label><br>
+                <input type="checkbox" name="allergy"/><label>Семена кунжута</label><br>
+                <input type="checkbox" name="allergy"/><label>Моллюски</label><br>
+                <input type="checkbox" name="allergy"/><label>Горчица</label><br>
+                <input type="checkbox" name="allergy"/><label>Сельдерей</label><br>
+                <input type="checkbox" name="allergy"/><label>Люпин</label><br>
+                <input type="checkbox" name="allergy"/><label>Сульфиты</label><br>
+                <input type="checkbox" name="allergy"/><label>Ваше предложение</label><br>
+                <input type="text" name="message" /><br>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Вам удобно пользоваться нашим приложением:</legend>
+                <input type="radio" checked name="dva" /><label>Да</label> <br>
+                <input type="radio" name="dva" /><label>Нет</label><br>
+                <input type="radio" name="dva" /><label>Ваше предложение</label><br>
+                <input type="text" name="message" /><br>
+            </fieldset>
+
+            <input type="submit" value="Отправить"><br>
+            <input type="reset" value="Сброс всего">
+        </fieldset>
+    </form>
+</body>
+</html>
